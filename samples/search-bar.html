@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Gabriel Samples</title>
+    <script>
+        function changeColor() {
+        //  document.body.style.backgroundColor = "red";
+        // var  color  = 
+         document.getElementById('Mybutton').style.backgroundColor = document.getElementById("gabi").value;
+        }
+    </script>
+    <style>
+        .Email {
+            margin-bottom: 4px;
+            color: gray;
+            margin-left: 500;
+        }
+
+        .search-bar {
+            border-radius: 4px;
+            margin: 0px;
+            width: 360px;
+            margin-left: 500;
+        }
+
+        .button {
+            background-color: rgb(29, 155, 240);
+            border: none;
+            width: 360px;
+            height: 50px;
+            ;
+            border-radius: 100px;
+            color: white;
+            margin-left: 500;
+        }
+
+        .terms-condition-text {
+            color: gray;
+            margin-left: 500;
+        }
+
+         .parent-div {
+            display: flex;
+            /* background-color: antiquewhite; */
+         }
+
+         .child-div {
+            margin: auto;
+            /* background-color: aqua; */
+         }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="parent-div">
+
+        <div class="child-div">
+
+
+            <p class="Email">Email</p>
+
+            <input id="gabi" onchange="changeColor()" class="search-bar" type="text">
+
+
+            <p class="terms-condition-text">
+                By cliking Agree & Join,you agree to the Privacy Policy.
+            </p>
+
+
+
+            <button id="Mybutton" class="button" onclick="changeColor()">Agree & Join</button>
+
+            <video width="320" height="240" controls>
+                <source src="Gabriel_Tomashvili_720p.mov" type="video/mp4">
+                <source src="Gabriel_Tomashvili_720p.mov" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

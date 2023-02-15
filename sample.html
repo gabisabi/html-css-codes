@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* 
+        .animal {
+            width: 200px;
+            border-radius: 50px;
+        } */
+
+        .parent-grid {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            margin-top: 30px;
+            column-gap: 20px;
+            border-color: black;
+            border-radius: 2px;
+            row-gap: 40px;
+        }
+
+        .inner-grid {
+            background-color: bisque;
+            height: 200px;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .inner-grid2 {
+          background-color: blue;
+           height: 200px;
+
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+        }
+
+
+
+        .inner{
+            background-color: aqua; 
+            height: 200px;
+
+            display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="parent-grid">
+
+        <div style="background-color: aqua; height: 200px;"></div>
+        <div class="inner-grid"> 
+         
+            <div style="background-color: black; height: 200px;"></div>
+            <div class="inner-grid2"> 
+         
+                <div style="background-color: rgb(255, 235, 238); width: 1fr;"></div>
+                <div style="background-color: rgb(255, 0, 4); width: 1fr;"></div>
+                <div style="background-color: rgb(123, 0, 255); width: 1fr;"></div>
+                
+    
+            </div>
+            
+            <div style="background-color: red; height: 200px;"></div>
+            
+
+        </div>
+
+
+        <div class="inner">
+            
+        </div>       
+    </div> 
+
+
+    
+
+
+    <!-- <div style=" margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 20px ; row-gap:
+        40px;">
+
+        <div style="margin-top: 50px;font-size: x-large;">clik me for dog info</div>
+
+        <img class="animal" src="Channel-pictures/dog 1.webp">
+
+        <div style="background-color: white;height: 200px;"> </div>
+
+        <div style="margin-top: 50px;font-size: x-large;">clik me for bunny info </div>
+
+        <img class="animal" src="Channel-pictures/rabbit 1.jpeg">
+
+        <div style="margin-top: 50px;font-size: x-large;"></div>
+
+        <div style="margin-top: 50px;font-size: x-large;">clik me for cat info </div>
+
+        <img class="animal" src="Channel-pictures/cat 1.jpeg">
+
+
+
+
+
+    </div> -->
+
+
+
+</body>
+
+
+</html>
